@@ -3,8 +3,8 @@ import { UserContext } from "./UserContext";
 
 let Login = (props) => {
   //var[currentValue, function that updates the state Value]
-  var [email, setEmail] = useState("admin@test.com");
-  var [password, setPassword] = useState("Admin123");
+  var [email, setEmail] = useState("scott@test.com");
+  var [password, setPassword] = useState("Scott123");
   let userContext = useContext(UserContext);
   let myEmailRef = useRef();
 
